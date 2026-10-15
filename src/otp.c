@@ -34,7 +34,6 @@ int otp_xor(const uint8_t *input,
  * Generate a cryptographically random OTP key.
  *
  * /dev/urandom provides random bytes
- * from the Linux operating system.
  */
 int otp_generate_key(uint8_t *key, size_t length)
 {
